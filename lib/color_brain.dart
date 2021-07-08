@@ -11,13 +11,13 @@ class ColorBrain {
   //   'Color is Brown',
   // ];
 
-  // List<Color> colorValue = [
-  //   Colors.red,
-  //   Colors.blue,
-  //   Colors.yellow,
-  //   Colors.green,
-  //   Colors.brown,
-  // ];
+  List<Color> colorValue = [
+    Colors.red,
+    Colors.blue,
+    Colors.yellow,
+    Colors.green,
+    Colors.brown,
+  ];
   String getText(int newcolor) {
     if (newcolor == 1) {
       return 'Colure is Red';
